@@ -1,19 +1,18 @@
-
-class a{
-
-	public void a() {
+class a1{
+ 
+	public void a1() {
 		System.out.println("in a");
 	}
 }
 
-public class Const extends a {
+public class Const extends a1 {
 
 	Const(){
 		System.out.println("in Const");
 	}
 	public static void main(String[] args) {
 		
-		((a) new Const()).a();  
+		((a1) new Const()).a1();  
 	}
 
 }

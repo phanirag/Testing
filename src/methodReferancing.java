@@ -1,5 +1,6 @@
 interface n{
 	public int add(int x,int g);
+	// public void nas();
 }
 
 class math{
@@ -18,7 +19,9 @@ public class methodReferancing {
 		math m=new math();
 		n n=m::dosum;
 		//for static syntax= n n=math::dosum;
-		int c=n.add(10, 20);
+		n adding= (int s,int k) -> s+k ;
+		//int c=n.add(10, 20);
+		int c=adding.add(10, 20);
 		System.out.println(c);
 	}
 
