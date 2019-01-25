@@ -4,28 +4,28 @@ public class methods {
 
 	public static void main(String[] args) {
 
-		InternMethod();
-		StringConsrtObject();
-		CharAtMethod();
-		concatmethod();
-		equalsMethod();
+		//InternMethod();
+		//StringConsrtObject();
+		//CharAtMethod();
+		//concatmethod();
+		//equalsMethod();
 		subStringMethod();
-		lengthMethod();
-		replaceMethod();
-		UpperAndLowerCase();
-		trimMethod();
-		indexOfMethod();
-		lastindexOfMethod();
-		compareToMethod();
-		contentEqualsMethod();
-		copyvalueofMethod();
-		endsWithMethod();
-		replaceFirstMethod();
-		regionMatchesMethod();
-		matchesMethod();
-		valueOfMethod();
-		startswithMethod();
-		splitMethod();
+		//lengthMethod();
+		//replaceMethod();
+		//UpperAndLowerCase();
+		//trimMethod();
+		//indexOfMethod();
+		//lastindexOfMethod();
+		//compareToMethod();
+		//contentEqualsMethod();
+		//copyvalueofMethod();
+		//endsWithMethod();
+		//replaceFirstMethod();
+		//regionMatchesMethod();
+		//matchesMethod();
+		//valueOfMethod();
+		//startswithMethod();
+		//splitMethod();
 	}
 
 	private static void splitMethod() {
@@ -236,7 +236,7 @@ public class methods {
 		String s3=s2.intern();
 		String s4="basker1";
 		System.out.print("From intern() :");
-		System.out.println(s3==s4); // true
+		System.out.println(s2==s4); // true
 	}
 
 }
